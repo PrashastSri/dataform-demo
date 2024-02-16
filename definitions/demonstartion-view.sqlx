@@ -1,0 +1,15 @@
+config {
+    type: "view"
+}
+
+select 
+"apples" as fruit, 2 as count
+
+union all 
+select "oranges" as fruit, 5 as count
+
+union all
+select "pears" as fruit, 3 as count
+
+union all
+select "bananas" as fruit, 4 as count
